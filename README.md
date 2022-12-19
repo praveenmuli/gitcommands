@@ -13,3 +13,21 @@ Common Git Commands
 7) git branch branchName                // Creates the branch 
 8) git merge branchName                 // Does a git merge 
 ```
+
+```Initialising Repository
+git Init
+```
+```Staging Files
+git add <file>                            //Stages a single file
+git add <file1> <file2>                   //Stages Multiple files
+git add *.sh                              //Stages all shell files
+git add .                                 //Stages Current Directory
+```
+```Viewing the status
+git status                              // full status
+git status -S                           //Short Status
+```Commiting the Staged Files
+git commit -m "Message"                 //commits with a one line msg
+git commit -am "Message"                 //skips the staging area
+```
+```Removing or moving files
