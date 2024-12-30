@@ -31,3 +31,16 @@ git commit -m "Message"                 //commits with a one line msg
 git commit -am "Message"                 //skips the staging area
 ```
 ```Removing or moving files
+
+``` with this option both local dev and feature branch have latest changes```
+
+git checkout dev
+git pull
+git checkout feature_branch
+git merge dev
+git mergetool
+git commit
+
+
+git fetch origin/dev
+git merge origin/dev
